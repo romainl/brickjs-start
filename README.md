@@ -3,15 +3,21 @@
 # MOTIVATIONS
 
 I worked during 3 years at [INGENICO](https://www.ingenico.com) France, developing apps, webos, bridges for the new [TELIUM TETRA SMART TERMINALS](https://www.ingenico.com/our-solutions/telium-tetra).
+
 The fastest solutions was VanillaJS for sure...
+
 I tried backbone, and the better solution was to use [Exoskeleton](http://paulmillr.com/exoskeleton) with [webpack](https://webpack.github.io) and [chaplinJS](http://chaplinjs.org).
+
 I tried [ReactJS](https://facebook.github.io/react), and the better solution was [MithrilJS](https://mithril.js.org).
+
 The problem was that MithrilJS did not cibling redraw and restart diff from root.
+
 Other VDOM frameworks was slow or did code evaluation and other CSP issues.
 
 That why i plan to create a JavaScript VDOM framework shorthand, tiny, extremely fast, with cibling redraw for development embeds.
 
 But i changed my mind and decide to completly review the project and doing something more flexible, open, atomic and fully customizable...
+
 Anyway the VDOM Framework is under development and will be release soon as a BrickJS project.
 
 # GOALS
